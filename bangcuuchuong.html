@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="output"></p>
+<script>
+    let sout='';
+    for(let i=1;i<10;i++)
+    {
+        for(let j=2;j<10;j++)
+        {
+            sout+='<div style="display:inline-block;border: 1px solid black;width:200px;" >'+j+'x'+i+'='+i*j+'</div>';
+        }
+        sout+='<br>'
+    }
+    document.getElementById('output').innerHTML=sout;
+</script>
+</body>
+</html>
